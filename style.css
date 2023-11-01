@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.header-container {
+    background: #181b19;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 20px;
+
+}
+
+.menu {
+    margin-left: -15%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.menu a:hover {
+    font-size: 17px;
+    color: #6ec792;
+    text-decoration: underline;
+}
+
+.menu a:active {
+    font-size: 17px;
+    color: #6ec792;
+    text-decoration: underline;
+}
+
+.localisation {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.search img {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.list span {
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.description-container {
+    background: #181b19;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.description-text-container {
+    background-image: url(images/line.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 100vh;
+    color: white;
+    margin-top: 20px;
+}
+
+.text-name {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.line {
+    width: 130px;
+    border: 1px solid #6ec792;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.description-title {
+    font-size: 100px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.descriptioon-text {
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.buton {
+    margin-left: 50px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.green {
+    background: #6ec792;
+}
+
+.black {
+    background: #000000;
+}
+
+.services-container {
+    padding: 50px;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.title-line {
+    width: 130px;
+    border: 1px solid #6ec792;
+    margin:20px auto;
+}
+
+.service-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.img-container {
+    width: 350px;
+    height: 450px;
+    background-image: url(images/start-up-of-economists-CBZJYDS.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.img-container2 {
+    width: 350px;
+    height: 450px;
+    background-image: url(images/talk-of-expert-9FMRWDR.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.img-container3 {
+    width: 350px;
+    height: 450px;
+    background-image: url(images/Image-KYQGLWN.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.background-box {
+    width: 340px;
+    height: 450px;
+    background: rgba(6, 6, 6, 0.589);
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.tin-img img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 300px;
+    margin-top: 85%;
+}
+
+.box-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 90px;
+    margin: auto;
+}
+
+.tab {
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    background: #acacac5e;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.tab1{
+    background: #6ec792;
+    color: #fff;
+}
+.tab:hover{
+    background: #6ec792;
+    color: #fff;
+}
+.about-img{
+    
+    margin-right: 20px;
+}
+.about-img img{
+    width: 600px;
+}
+.about-image-container{
+    display: flex;
+    align-items: center;
+    background-image: url(images/image-4MLXK3M-800x471-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.management-container{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    background:linear-gradient(#fff,#6ec792);
+}
+.management-title-line{
+    width: 130px;
+    border: 1px solid #6ec792;
+    margin-top: 20px;
+}
+.management-img img{
+    margin-left: 45px;
+}
+.management-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.parteners-container{
+    background: #101010;
+    padding: 50px;
+    color: white;
+}
+.parteners-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    margin:30px auto;
+}
+.globe{
+    text-align: center;
+}
+.text-separator{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.parteners-logo img{
+    width: 150px;
+    
+    margin-left: 20px;
+}
+.parteners-logo{
+    text-align: center;
+    padding: 50px;
+}
+.gallery-contain{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.gallery-text-contain{
+    width: 700px;
+}
+.item-contain div{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 500px;
+}
+.item:hover{
+    cursor: pointer;
+}
+.lorem{
+    color:#3a4f66;
+}
+.gallery-img-contain{
+    background: #000000;
+    padding: 30px;
+}
+.img1{
+    height: 150px;
+    margin: 20px;
+}
+.gallery-line{
+    width: 130px;
+    border: 1px solid #6ec792;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.shadow-box{
+    width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow:2px 2px 5px 5px #181b19ab;
+}
+.welcome-container{
+    width: 1000px;
+    margin: 130px auto;
+    padding: 70px;
+    background: #6ec792;
+    color: white;
+    text-align: center;
+}
+.welcome-buton{
+    background: #000000;
+}
